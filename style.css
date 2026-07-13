@@ -48,11 +48,14 @@ header{
     color: #fff;;
 }
 h1{
-    font-size: 50px;
+    font-size: 80px;
+    font-weight:800;
+    margin-bottom:25px;
 }
 p{
     margin-bottom: 40PX;
     font-size: 20px;
+    color: #fff;
 }
 .header-content button{
     width: 25%;
@@ -103,5 +106,174 @@ p{
     color:#212121;
     font-size:16px;
 }
+.pricing h2{
+    text-align:center;
+    font-size:54px;
+    font-weight:700;
+}
+p{
+    text-align:center;
+    color:#666;
+    font-size:20px;
+}
+.pricing-container{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+}
+.price-card{
+    background:#fff;
+    border:1px solid #ddd;
+    border-radius:16px;
+    padding:35px;
+}
+.price-card h5{
+    color:#777;
+    font-size:14px;
+    margin: 0px;
+}
 
+.price-card h3{
+    font-size:60px;
+    font-weight:800;
+    margin: 0px;
+}
+.person{
+    color:#777;
+    margin-bottom: 5px;
+    text-align: left; 
+}
+.price-card hr{
+    margin:25px 0;
+    border:none;
+    border-top:1px solid #ddd;
+}
+.price-card ul{
+    display:block;
+    padding-left:20px;
+    margin-bottom:35px;
+}
+.price-card ul li{
+    margin-bottom:18px;
+    color:#444;
+    font-size:18px;
+}
+.outline-button{
+    width:100%;
+    padding:15px;
+    border:2px solid #1f4fff;
+    background:#fff;
+    color:#1f4fff;
+     border-radius:10px;
+    font-size:18px;
+    cursor:pointer;
+}
+.blue-button{
+    width:100%;
+    padding:15px;
+    border:none;
+    background:#2563eb;
+    color:white;
+    border-radius:10px;
+    font-size:18px;
+    font-weight:700;
+    cursor:pointer;
+}
+.contact-button{
+    width:100%;
+    padding:15px;
+    background:white;
+    border:2px solid black;
+    border-radius:10px;
+    font-size:18px;
+    font-weight:700;
+        cursor:pointer;
+}
+.dark-card{
+    background:#0f172a;
+    color:white;
+}
+.dark-card hr{
+    border-top:1px solid rgba(255,255,255,.15);
+}
+.hackathon{
+    background:#0f172a;
+    color:#fff;
+    padding:90px 20px;
+    text-align:center;
+}
 
+.hackathon-content{
+    max-width:1200px;
+    margin:auto;
+}
+
+.hackathon h2{
+    font-size:48px;
+    margin-bottom:20px;
+}
+
+.hackathon p{
+    color:#cbd5e1;
+    max-width:700px;
+    margin:0 auto 50px;
+    line-height:1.7;
+}
+.hackathon-cards{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+    margin-bottom:45px;
+}
+.hack-card{
+    background:#1e293b;
+    padding:35px;
+    border-radius:15px;
+}
+.hack-card h3{
+    font-size:42px;
+    margin-bottom:10px;
+}
+.hack-card p{
+    margin:0;
+    color:#94a3b8;
+    font-size:18px;
+}
+.footer{
+    max-width:1200px;
+    margin:80px auto 40px;
+    padding:0 20px;
+}
+.footer-top{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:25px;
+}
+.footer-logo h2{
+    font-size:28px;
+    font-weight:700;
+    color:#111827;
+}
+.social-links{
+    display:flex;
+    gap:20px;
+}
+.social-links a{
+    color:#111827;
+    font-size:22px;
+    transition:.3s;
+}
+.social-links a:hover{
+    color:#2563eb;
+}
+.footer hr{
+    border:none;
+    border-top:1px solid #d1d5db;
+    margin-bottom:25px;
+}
+.footer p{
+    text-align:center;
+    font-size:16px;
+    color:#6b7280;
+}
